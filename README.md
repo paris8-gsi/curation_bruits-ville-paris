@@ -1,6 +1,8 @@
 # Les bruits de la ville - Paris
 Dépôt pour le projet de *Gestion des contenus et curation des données* : **Les bruits de la ville - Paris**.
 
+La première version du site, ainsi que les ressources, peut être consultée sur [https://les-bruits-de-la-ville.bitballoon.com/](https://les-bruits-de-la-ville.bitballoon.com/).
+
 ## Présentation du projet
 Le projet de curation de données qui est décrit dans ce plan porte sur les bruits et sons que l’on est susceptible d’entendre au quotidien dans la ville de Paris, sans pour autant lui être exclusifs. L’équipe LSR procèdera à l’identification (en recherchant sur Internet ce qui est typique dans cette ville) et à l’enregistrement de ces multiples sons.
 
