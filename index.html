@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<title>Les bruits de la ville - Paris</title>
+		<link rel="stylesheet" href="css/main.css" />
+		
+	</head>
+	
+	<body>
+	
+	<div id="menu">
+		<ul>
+			<li><a class="current" href="index.html">Les bruits de la ville</a>
+				<ul class="submenu">
+					<li><a href="#sujet_presentation">Présentation du projet</a></li>
+					<li><a href="#sujet_types">Types de données et stockage</a></li>
+					<li><a href="#sujet_organisation">Organisation et méta-données</a></li>
+					<li><a href="#sujet_acces">Accès aux données</a></li>
+				</ul>
+		</li>
+			<li><a href="donnees.html">Les données</a></li>
+			<li id="menu_el_about"><a href="apropos.html">À propos</a></li>
+		</ul>
+		
+	</div>
+	
+	<div class="content">
+		<h2 id="sujet_presentation">Les bruits de la ville - Paris</h2>
+		
+		<p>Le projet de curation de données qui est décrit dans ce plan porte sur les bruits et sons que l’on est susceptible d’entendre au quotidien dans la ville de Paris, sans pour autant lui être exclusifs. L’équipe LSR procèdera à l’identification (en recherchant sur Internet ce qui est typique dans cette ville) et à l’enregistrement de ces multiples sons.</p>
+		
+		<p>L’objectif est de dégager une première collection de sons permettant à l’ouïe une immersion dans la capitale. (Il est un sens généralement délaissé au profit de la vue et autres.) Si les limites viennent de la difficulté à relever des sons propres à Paris et à  localiser le lieu exacte de leur enregistrement, il s’agit aussi d’un avantage puisqu’il devient possible pour l’auditeur de  rattacher tout de suite un souvenir au son.</p>
+		
+		<p>La collection est un extrait du catalogue d’une exposition ayant pour thème les sons et bruits à Paris. Il s’agit d’une exposition avant tout à destination des malvoyants.</p>
+		
+		<h2 id="sujet_types">Types de données et stockage</h2>
+		<p>La plupart des données sont des enregistrements audios, lesquels ont été réalisés par LSR au moyen de smartphone. Quant aux sources, au vu de la nature du projet, elles sont plurielles car elles regroupent des machines, des véhicules, des individus et autres objets de la vie de tous les jours.</p>
+		
+		<p>La liste des enregistrements constituant la collection est organisée dans une archive avec un fichier HTML à la racine pour les décrire. Afin d’en permettre la réutilisation, nous la mettrons en ligne sur le site GitHub.</p>
+		
+		<h2 id="sujet_organisation">Organisation, documentation et méta-données</h2>
+		<p>L’arborescence du projet organise les fiches pour les ressources dans le dossier descriptions et toutes les ressources sous le dossier ressources.<br />À la racine, on retrouve l’ensemble des fichiers nécessaires pour lister et afficher les différentes ressources.</p>
+		
+		<p>Le nom des fichiers des ressources est composé de l’objet de l’enregistrement (s’ils sont plusieurs ils sont séparés par des traits d’union) et du numéro de l’enregistrement précédé d’un <i>underscore</i> ; par exemple : cloche-oiseaux_001.mp3. Le nom des fichiers descripteurs est le même que celui des ressources, seule l’extension change ; par exemple : enfants_002.html.</p>
+		
+		<p>Les formats utilisés sont le Dublin Core pour les métadonnées décrivant les ressources et le HTML pour les pages Internet. En outre, pour l’automatisation (à savoir, l’affichage des métadonnées sous une forme lisible) nous avons eu recours à jQuery.</p>
+		
+		<h2 id="sujet_acces">Accès aux données et propriété intellectuelle</h2>
+		<p>Toutes les ressources et le site les regroupant et les présentant sont soumis à la licence publique générale GNU.</p>
+		
+		<p>En revanche, si l’accès aux ressources est entièrement libre, l’ajout de nouvelles est soumis à quelques règles rudimentaires : les fichiers doivent d’abord obéir aux règles de nommage (Cf. point ci-dessus) et prendre comme modèle l’un des fichiers descripteurs validés (déjà en ligne). L’ajout, comme les modifications, doit être par la suite commit sur la page GitHub du projet.</p>
+	</div>
+	
+	</body>
+</html>
